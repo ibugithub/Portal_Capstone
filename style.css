@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,400;0,900&family=Lilita+One&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  margin: -8px;
+  font-family: "Lato", sans-serif;
+  width: 375px;
+}
+nav img {
+  width: 30px;
+  height: 27px;
+}
+
+.color_FF54 {
+  color: #ff5438;
+}
+
+.pdL_pdR {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+header {
+  background-image: url('images/main_big.png');
+  padding-bottom: 50px;
+  background-position: 45% 7%;
+}
+
+nav {
+  padding-left: 22px;
+  padding-top: 17px;
+}
+
+.title_description {
+  padding-top: 90px;
+}
+
+.title_description .title {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.title_description .description {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.title_description .description p {
+  border: 5px solid white;
+  padding: 15px;
+}
+
+.time_date {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.mrb5 {
+  margin-bottom: 5px;
+}
+
+.mrb10 {
+  margin-bottom: 10px;
+}
+
+.mrt0 {
+  margin-top: unset;
+}
+
+.pdb0 {
+  padding-bottom: unset;
+}
+
+.main_program > .program_title {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.separator {
+  padding-left: 45%;
+  padding-right: 45%;
+  padding-bottom: 35px;
+}
+
+.separator .sep {
+  background-color: #ff5438;
+  width: 100%;
+  height: 2px;
+}
+
+.mrb10 {
+  margin-bottom: 10px;
+}
+
+.program {
+  display: flex;
+  align-items: center;
+  background-color: #3b3e45;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.program .program_img {
+  width: 20%;
+}
+
+.program .program_title {
+  width: 30%;
+  font-size: 14.27px;
+  color: #ff5438;
+}
+
+.program .program_description {
+  width: 50%;
+  font-size: 14px;
+  color: white;
+}
+
+.main_program {
+  background-image: url('images/pattern_bg.png');
+  background-color: #282b32;
+  margin: -8px;
+  padding-top: 10px;
+}
+
+.programs {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.join_btn {
+  text-align: center;
+  padding-top: 37.5px;
+  padding-bottom: 37.5px;
+}
+
+.join_btn button {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  background: #ff4f38;
+  border: none;
+  color: white;
+}
+
+.feature_speaker {
+  padding-bottom: 25px;
+}
+
+.feature_title {
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.more_container {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.more {
+  display: flex;
+  border: 1px solid #9a9595;
+  padding: 10px 10px 10px 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+} 
+
+.sub_title {
+  text-align: center;
+}
+
+.title {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+} 
+
+.detail {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.past_summit {
+  text-align: center;
+}
+
+.partner {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.partner h5 {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+}
+.company {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.partner_section {
+  background-color: #414246;
+  padding-bottom: 40px;
+}
+
+footer {
+  display: flex;
+  gap: 10px;
+  padding: 27px 25px 27px 25px;
+  align-items: center;
+}
+
+footer .right {
+  font-size: 10px;
+}
+
+.detail .description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: white;
+}
+
+.logo_section {
+  text-align: center;
+}
+
+.logo_description {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.about_header {
+  background-position: 45% 1%;
+  padding-bottom: 23px;
+}
+
+.contact p {
+  line-height: 25px;
+  color: #7A7A7A;
+}
+
+.contact {
+  padding-left: 6px;
+  padding-right: 16px;
+}
+
+.contact address {
+  color: #5F5F5F;
+}
+
+.logo_title {
+  font-size: 20px;
+  padding-left: 76px;
+  padding-right: 76px;
+}
+
+.logo_section .separator {
+  padding-bottom: 10px;
+}
+
+.past_summit .separator {
+  padding-bottom: unset;
+}
+
+.summit_title {
+  font-size: 20px;
+}
+
+.author_detail {
+  font-size: 10px;
+  color: #ff4f38;
+}
+
+.feature_description {
+  font-size: 9px;
+}
+
+.summit_img img {
+  width: 335px;
+}

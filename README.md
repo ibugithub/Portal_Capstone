@@ -1,13 +1,12 @@
 # Portfolio<a name="readme-top"></a>
 
 <div align="center">
-  <h1> Portfolio: setup and mobile first </h1>
+  <h1> Capstone Project 1 | README </h1>
   <br/>
 
   <h3><b>Portfolio README Template</b></h3>
 
 </div>
-
 
 # 📗 Table of Contents
 
@@ -31,8 +30,8 @@
 - [📝 License](#license)
 
 
-# 📖Portfolio: setup and mobile first  <a name="about-project"></a>
-**Portfolio: setup and mobile first** is a Project in the first week of the program.
+# 📖Conference page  <a name="about-project"></a>
+**Conference page** is a project for Microverse bootcamp to implement all the learned topics in portal module. It is a conference web on Science Innovation.
 
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
@@ -109,7 +108,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 - [ ] **[Responsive Home Page]**
-- [ ] **[Side bar]**
+- [ ] **[Responsive About Page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,12 +128,18 @@ If you like this project please try to contribute or rate it or put a comment
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to thank Microverse for giving me this kind of project as a task.
+I would like to thank to my coding partners. Also thank you to Cindy Shin for the original design.
+
+You can know more about her work in the following url:
+<a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 
 ## 📝 License <a name="license"></a>
+Original design idea by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>.
+
 This project is [MIT](./LICENSE.md) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
