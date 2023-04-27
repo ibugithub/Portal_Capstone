@@ -18,15 +18,20 @@ const menuUl = document.createElement('ul');
 menuUl.classList.add('menu_ul');
 
 // creating menu list for mobile menu...
-const menu = ['About', 'Program', 'Join', 'Sponsor', 'News', 'GSCampign'];
+const menu = ['Home', 'About', 'Program', 'Join', 'Sponsor', 'News', 'GSCampign'];
 menu.forEach((element) => {
+  const menuLiA = document.createElement('a');
+  menuLiA.classList.add('tdNone', 'colorWhite');
+  if (element === 'Home') {
+    menuLiA.href = 'index.html';
+  } else if (element === 'About') {
+    menuLiA.href = 'about.html';
+  }
   const menuLi = document.createElement('li');
-  const menuliA = document.createElement('a');
-  menuliA.href = 'about.html';
-  menuLi.appendChild(menuliA);
   menuLi.classList.add('menu_li', 'lsNone');
   menuLi.textContent = element;
-  menuUl.appendChild(menuLi);
+  menuLiA.appendChild(menuLi);
+  menuUl.appendChild(menuLiA);
 });
 mobileMenuContainer.appendChild(cancelIconDiv);
 mobileMenuContainer.appendChild(menuUl);
@@ -41,6 +46,7 @@ document.querySelector('#navImg').addEventListener('click', () => {
   document.querySelector('.cancelIcon').addEventListener('click', removeChild);
 });
 
+// Creating the data for feature sections
 const speakerData = [
   {
     name: 'Yoachi Benkler',
@@ -85,6 +91,7 @@ const speakerData = [
   },
 ];
 
+// Appending Feature to the feature section
 const appendFeature = () => {
   const featureSection = document.querySelector('.feature_speaker');
   const featureUl = document.createElement('ul');

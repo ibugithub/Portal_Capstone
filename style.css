@@ -430,6 +430,11 @@ footer .right {
   display: flex !important;
 }
 
+.cancelIcon {
+  width: 60px;
+  height: auto;
+}
+
 @media only screen and (min-width: 768px) {
   .mobile_show {
     display: none;
