@@ -13,10 +13,34 @@
 
     <div class="container">
         <div class="wrapper">
-            <header class="about_header">
-                <nav>
-                    <img src="images/mobile_menu 1.png" alt="This is the nav icon">
+            <header class="about_header about_header">
+                <nav class="mobile_show">
+                    <img id="navImg" src="images/mobile_menu 1.png" alt="This is the nav icon">
                 </nav>
+
+                <div class="desktop_show menu_container">
+                    <ul class="social_menu margin0">
+                        <li class="lsNone"><a href="" class="tdNone"><img src="images/twitter.png" alt="facebook logo"></a></li>
+                        <li class="lsNone"><a href="" class="tdNone"><img src="images/facebook.png" alt="twitter logo"></a></li>
+                        <li class="lsNone"><a href="" class="tdNone colorWhite">English</a></li>
+                        <li class="lsNone"><a href="" class="tdNone colorWhite">My Page</a></li>
+                        <li class="lsNone"><a href="" class="tdNone colorWhite">lagout</a></li>
+                    </ul>
+                    <div class="menu">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                        </div>
+                            <ul class="navUl">
+                                <li class="lsNone"><a href="" class="tdNone">About</a></li>
+                                <li class="lsNone"><a href="" class="tdNone">Program</a></li>
+                                <li class="lsNone"><a href="" class="tdNone">Join</a></li>
+                                <li class="lsNone"><a href="" class="tdNone">Sponsor</a></li>
+                                <li class="lsNone"><a href="" class="tdNone">News</a></li>
+                                <li class="lsNone"><a href="" class="tdNone">GSCampaign</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
 
                 <section class="title_sub_title color_FF54">
                     <div class="sub_title">
@@ -50,7 +74,9 @@
                         <div class="sep"></div>
                     </div>
                     <div class="logo_description">
-                        <p>The logo of Global summit was decided through the logo competition from 8 june to 7 july.</p>
+                        <p>The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July.
+                            After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize.
+                            After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:.</p>
                     </div>
                     <div class="log_img"><img src="images/about_logo 1.png" alt=""></div>
                 </div>
@@ -87,7 +113,7 @@
 
             </section>
 
-            <section class="partner_section">
+            <section class="partner_section mobile_show">
                 <div class="partner">
                     <h5>Partner</h5>
                 </div>
@@ -95,21 +121,23 @@
                     <div class="sep"></div>
                 </div>
 
-                <div class="company">
-                    <div class="logo"><img src="images/mozilla 1.png" alt=""></div>
-                    <div class="logo"><img src="images/googlekorea 1.png" alt=""></div>
-                    <div class="logo"><img src="images/naver 1.png" alt=""></div>
-                    <div class="logo"><img src="images/daumkakaologo 1.png" alt=""></div>
-                    <div class="logo"><img src="images/airbnb 1.png" alt=""></div>
-                </div>
+                <ul class="company padding0">
+                    <li class="logo lsNone"><img src="images/mozilla 1.png" alt=""></li>
+                    <li class="logo lsNone"><img src="images/googlekorea 1.png" alt=""></li>
+                    <li class="logo lsNone"><img src="images/naver 1.png" alt=""></li>
+                    <li class="logo lsNone"><img src="images/daumkakaologo 1.png" alt=""></li>
+                    <li class="logo lsNone"><img src="images/airbnb 1.png" alt=""></li>
+                </ul>
             </section>
 
             <footer>
-                <div class="left">Creative commons Newzeland</div>
+                <div class="left">Global Science Newzeland</div>
                 <div class="right">2023 Creative commons Newzeland. Some right reserved.</div>
             </footer>
         </div>
     </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
