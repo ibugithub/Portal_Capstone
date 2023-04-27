@@ -52,7 +52,9 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-- [Live Video Demo](https://www.loom.com/share/cd79dbd60cd046bc9f3447c51c5bba68)
+
+- [You can check Live Video Demo](https://www.loom.com/share/cd79dbd60cd046bc9f3447c51c5bba68)
+
 - [Live Demo Link](https://ibugithub.github.io/Portal_Capstone/)
 
 
